@@ -8,7 +8,7 @@
 
 # INSTALLATION
 
-- The script is coded in C, you can compile the src files using gcc or you can use the compiled version from [GitHub releases](https://github.com/infamouskoala/releases/).
+- The script is coded in C, you can compile the src files using gcc or you can use the compiled version from [GitHub releases](https://github.com/infamouskoala/terminalMod/releases/tag/Release).
 
 - To compile, run the following command: 
 ```bash
