@@ -4,11 +4,16 @@
 #include "src/imports.h"
 
 void main() {
-    char *regex = malloc(100);
+    char * regex = malloc(2);
     printf(green "[+] " white "Enter a desired regex: ");
     scanf("%s", regex);
-    if (strlen(regex) >= 100) {
-        char *regex = malloc(strlen(regex) + 1);
+    if (strlen(regex) >= 2) {
+        free(regex);
+        int buffer = strlen(regex) + 1;
+        char *newRegex = realloc(regex, strlen(regex) + 1);
+    }
+    else{
+        printf("Memory allocation failed");
     }
     int garbageLLLLLLLLL;
     skinmaker("terminalconfig.ps1", regex);
